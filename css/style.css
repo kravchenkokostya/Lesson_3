@@ -1,1 +1,93 @@
-@import "null.css";
+h1 {
+	color: midnightblue;
+}
+
+h2 {
+	color: grey;
+}
+
+h3 {
+	color: orange;
+}
+
+p {
+	color: grey;
+}
+
+a {
+	color: blue;
+}
+
+span {
+	color: darkslateblue;
+}
+
+nav {
+	color: darkgreen;
+}
+
+nav a {
+	color: darkgreen;
+}
+
+nav.page-menu {
+	color: tomato;
+}
+
+.menu-nav {
+	color: darkred;
+}
+
+div.menu nav.menu-nav a.nav-link {
+	color: violet;
+}
+
+span.subtitle-grey {
+	color: grey;
+}
+
+div span span {
+	color: orangered;
+}
+
+div span a {
+	color: brown;
+}
+
+div li a.featured-link {
+	color: darkmagenta;
+}
+
+div li>span {
+	color: dodgerblue;
+}
+
+span ~ span.bold {
+	color: indianred;
+}
+
+div.grey-list ul li span {
+	color: limegreen;
+}
+
+div.non-grey-list ul ul ul a {
+	color: maroon;
+}
+
+.non-grey-list, .grey-list {
+	color: black;
+}
+
+
+.menu-nav {
+	color: black;
+}
+
+[class*="bold"] {
+color: navy;}
+
+#after-launch-link {
+color: saddlebrown;}
+
+
+
